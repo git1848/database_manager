@@ -1,0 +1,220 @@
+﻿<?xml version="1.0"?>
+<Map>
+  <DbToCS>
+    <Item key="nchar" value="string" />
+    <Item key="date" value="DateTime" />
+    <Item key="uniqueide" value="Guid" />
+    <Item key="numeric" value="decimal" />
+    <Item key="varchar" value="string" />
+    <Item key="nvarchar" value="string" />
+    <Item key="integer" value="int" />
+    <Item key="datetime" value="DateTime" />
+    <Item key="long raw" value="byte[]" />
+    <Item key="bit" value="bool" />
+    <Item key="raw" value="byte[]" />
+    <Item key="varchar2" value="string" />
+    <Item key="string" value="string" />
+    <Item key="money" value="decimal" />
+    <Item key="real" value="decimal" />
+    <Item key="blob" value="byte[]" />
+    <Item key="smallint" value="short" />
+    <Item key="tinyint" value="byte" />
+    <Item key="ntext" value="string" />
+    <Item key="single" value="Single" />
+    <Item key="smallmoney" value="decimal" />
+    <Item key="int" value="int" />
+    <Item key="decimal" value="decimal" />
+    <Item key="bfile" value="byte[]" />
+    <Item key="float" value="decimal" />
+    <Item key="uniqueidentifier" value="Guid" />
+    <Item key="text" value="string" />
+    <Item key="binary" value="byte[]" />
+    <Item key="char" value="string" />
+    <Item key="number" value="decimal" />
+    <Item key="smalldatetime" value="DateTime" />
+    <Item key="image" value="byte[]" />
+    <Item key="nvarchar2" value="string" />
+    <Item key="time" value="DateTime" />
+    <Item key="varbinary" value="byte[]" />
+    <Item key="boolean" value="bool" />
+    <Item key="bigint" value="long" />
+    <Item key="long" value="long" />
+    <Item key="longtext" value="string" />
+    <Item key="timestamp" value="DateTime" />
+    <Item key="sysname" value="string" />
+  </DbToCS>
+  <AccessTypeIDToTypeName>
+    <Item key="2" value="short" />
+    <Item key="3" value="int" />
+    <Item key="4" value="single" />
+    <Item key="5" value="double" />
+    <Item key="6" value="money" />
+    <Item key="7" value="datetime" />
+    <Item key="133" value="datetime" />
+    <Item key="11" value="bit" />
+    <Item key="13" value="timestamp" />
+    <Item key="17" value="byte" />
+    <Item key="72" value="uniqueidentifier" />
+    <Item key="128" value="binary" />
+    <Item key="204" value="binary" />
+    <Item key="129" value="char" />
+    <Item key="130" value="varchar" />
+    <Item key="200" value="varchar" />
+    <Item key="202" value="varchar" />
+    <Item key="131" value="float" />
+    <Item key="135" value="smalldatetime" />
+    <Item key="201" value="text" />
+    <Item key="203" value="text" />
+    <Item key="205" value="image" />
+  </AccessTypeIDToTypeName>
+  <NeedMark>
+    <Item key="smalldatetime" value="true" />
+    <Item key="varchar2" value="true" />
+    <Item key="clob" value="true" />
+    <Item key="uniqueidentifier" value="true" />
+    <Item key="string" value="true" />
+    <Item key="nvarchar2" value="true" />
+    <Item key="varchar" value="true" />
+    <Item key="nchar" value="true" />
+    <Item key="datetime" value="true" />
+    <Item key="text" value="true" />
+    <Item key="date" value="true" />
+    <Item key="time" value="true" />
+    <Item key="nvarchar" value="true" />
+    <Item key="ntext" value="true" />
+    <Item key="char" value="true" />
+  </NeedMark>
+  <DbType>
+    <SqlDbType NameSpace="System.Data" Prefix="SqlDbType">
+      <Item key="varbinary" value="VarBinary" />
+      <Item key="bit" value="Bit" />
+      <Item key="tinyint" value="TinyInt" />
+      <Item key="numeric" value="Decimal" />
+      <Item key="float" value="Float" />
+      <Item key="bigint" value="BigInt" />
+      <Item key="nvarchar" value="NVarChar" />
+      <Item key="ntext" value="NText" />
+      <Item key="uniqueidentifier" value="UniqueIdentifier" />
+      <Item key="decimal" value="Decimal" />
+      <Item key="smallmoney" value="SmallMoney" />
+      <Item key="image" value="Image" />
+      <Item key="string" value="VarChar" />
+      <Item key="datetime" value="DateTime" />
+      <Item key="timestamp" value="Timestamp" />
+      <Item key="real" value="Real" />
+      <Item key="int" value="Int" />
+      <Item key="bool" value="Bit" />
+      <Item key="varchar" value="VarChar" />
+      <Item key="money" value="Money" />
+      <Item key="nchar" value="NChar" />
+      <Item key="smalldatetime" value="SmallDateTime" />
+      <Item key="smallint" value="SmallInt" />
+      <Item key="binary" value="Binary" />
+      <Item key="char" value="Char" />
+      <Item key="text" value="Text" />
+    </SqlDbType>
+    <MySqlDbType NameSpace="MySql.Data.MySqlClient" Prefix="MySqlDbType">
+      <Item key="binary" value="Binary" />
+      <Item key="bool" value="Bit" />
+      <Item key="bit" value="Bit" />
+      <Item key="blob" value="Blob" />
+      <Item key="double" value="Double" />
+      <Item key="Date" value="DateTime" />
+      <Item key="datetime" value="DateTime" />
+      <Item key="numeric" value="DateTime" />
+      <Item key="decimal" value="Decimal" />
+      <Item key="float" value="Float" />
+      <Item key="enum" value="Enum" />
+      <Item key="geometry" value="Geometry" />
+      <Item key="longBlob" value="LongBlob" />
+      <Item key="string" value="String" />
+      <Item key="varchar" value="VarChar" />
+      <Item key="char" value="VarChar" />
+      <Item key="text" value="Text" />
+      <Item key="longtext" value="LongText" />
+      <Item key="time" value="Time" />
+      <Item key="smallint" value="Int32" />
+      <Item key="tinyint" value="Int16" />
+      <Item key="timestamp" value="Timestamp" />
+      <Item key="tinyText" value="TinyText" />
+      <Item key="tinyBlob" value="TinyBlob" />
+      <Item key="int" value="Int32" />
+      <Item key="bigint" value="Int64" />
+      <Item key="varbinary" value="VarBinary" />
+      <Item key="varstring" value="VarString" />
+      <Item key="year" value="Year" />
+    </MySqlDbType>
+    <OleDbType NameSpace="System.Data.OleDb" Prefix="OleDbType">
+      <Item key="varchar" value="VarChar" />
+      <Item key="string" value="VarChar" />
+      <Item key="short" value="SmallInt" />
+      <Item key="single" value="Single" />
+      <Item key="nvarchar" value="LongVarChar" />
+      <Item key="char" value="Char" />
+      <Item key="nchar" value="NChar" />
+      <Item key="text" value="LongVarChar" />
+      <Item key="ntext" value="LongVarChar" />
+      <Item key="datetime" value="Date" />
+      <Item key="smalldatetime" value="Date" />
+      <Item key="smallint" value="SmallInt" />
+      <Item key="tinyint" value="TinyInt" />
+      <Item key="int" value="Integer" />
+      <Item key="bigint" value="BigInt" />
+      <Item key="money" value="Decimal" />
+      <Item key="double" value="Double" />
+      <Item key="smallmoney" value="Decimal" />
+      <Item key="float" value="Decimal" />
+      <Item key="numeric" value="Decimal" />
+      <Item key="decimal" value="Decimal" />
+      <Item key="bool" value="Boolean" />
+      <Item key="bit" value="Boolean" />
+      <Item key="binary" value="Binary" />
+      <Item key="byte" value="Binary" />
+    </OleDbType>
+    <SQLiteType NameSpace="System.Data" Prefix="DbType">
+      <Item key="varchar" value="String" />
+      <Item key="binary" value="Binary" />
+      <Item key="nvarchar" value="String" />
+      <Item key="text" value="String" />
+      <Item key="time" value="Time" />
+      <Item key="datetime" value="DateTime" />
+      <Item key="date" value="Date" />
+      <Item key="tinyint" value="Int16" />
+      <Item key="int" value="Int32" />
+      <Item key="bigint" value="Int64" />
+      <Item key="long" value="Int64" />
+      <Item key="integer" value="Int32" />
+      <Item key="money" value="Decimal" />
+      <Item key="float" value="Decimal" />
+      <Item key="numeric" value="Decimal" />
+      <Item key="decimal" value="Decimal" />
+      <Item key="boolean" value="Boolean" />
+      <Item key="blob" value="Binary" />
+      <Item key="varbinary" value="Binary" />
+      <Item key="byte" value="Byte" />
+      <Item key="real" value="Decimal" />
+      <Item key="double" value="Double" />
+    </SQLiteType>
+    <OracleDbType NameSpace="Oracle.DataAccess" Prefix="Types">
+      <Item key="BFILE" value="OracleBFile" />
+      <Item key="BLOB" value="OracleLob" />
+      <Item key="CHAR" value="OracleString" />
+      <Item key="CLOB" value="OracleLob" />
+      <Item key="DATE" value="OracleDateTime" />
+      <Item key="FLOAT" value="OracleNumber" />
+      <Item key="INTEGER" value="OracleNumber" />
+      <Item key="INTERVAL YEAR TO MONTH" value="OracleMonthSpan" />
+      <Item key="INTERVAL DAY TO SECOND" value="OracleTimeSpan" />
+      <Item key="LONG" value="OracleString" />
+      <Item key="LONG RAW" value="OracleBinary" />
+      <Item key="NCHAR" value="OracleString" />
+      <Item key="NCLOB" value="OracleLob" />
+      <Item key="NUMBER" value="OracleNumber" />
+      <Item key="NVARCHAR2" value="OracleString" />
+      <Item key="RAW" value="OracleBinary" />
+      <Item key="ROWID" value="OracleString" />
+      <Item key="TIMESTAMP" value="OracleDateTime" />
+      <Item key="VARCHAR2" value="OracleString" />
+    </OracleDbType>
+  </DbType>
+</Map>

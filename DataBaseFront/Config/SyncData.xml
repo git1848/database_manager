@@ -1,0 +1,35 @@
+﻿<?xml version="1.0"?>
+<syncs>
+  <sync>
+    <form>
+      <db AliasName="">
+
+      </db>
+      <tables>
+        <table>
+          <columns>
+            <column></column>
+            <column></column>
+            <column></column>
+            <column></column>
+          </columns>
+        </table>
+      </tables>
+    </form>
+    <to>
+      <db AliasName="">
+
+      </db>
+      <tables>
+        <table>
+          <columns>
+            <column></column>
+            <column></column>
+            <column></column>
+            <column></column>
+          </columns>
+        </table>
+      </tables>
+    </to>
+  </sync>
+</syncs>

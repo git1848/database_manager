@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBaseFront", "DataBaseFront.csproj", "{93BA2A4A-CFEE-427A-8FC6-A718BDD066BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{5810B6A7-5A7E-4372-B2BE-E124FA95FB43}"
+	ProjectSection(SolutionItems) = preProject
+		..\Lib\ICSharpCode.TextEditor.dll = ..\Lib\ICSharpCode.TextEditor.dll
+		..\Lib\Interop.SQLDMO.dll = ..\Lib\Interop.SQLDMO.dll
+		..\Lib\Microsoft.VisualStudio.TextTemplating.10.0.dll = ..\Lib\Microsoft.VisualStudio.TextTemplating.10.0.dll
+		..\Lib\Microsoft.VisualStudio.TextTemplating.Interfaces.10.0.dll = ..\Lib\Microsoft.VisualStudio.TextTemplating.Interfaces.10.0.dll
+		..\Lib\MySql.Data.dll = ..\Lib\MySql.Data.dll
+		..\Lib\NVelocity.dll = ..\Lib\NVelocity.dll
+		..\Lib\SQLite.Interop.dll = ..\Lib\SQLite.Interop.dll
+		..\Lib\System.Data.SQLite.dll = ..\Lib\System.Data.SQLite.dll
+		..\Lib\WeifenLuo.WinFormsUI.Docking.dll = ..\Lib\WeifenLuo.WinFormsUI.Docking.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://viewer.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DataBaseFront.csproj
+		SccLocalPath1 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93BA2A4A-CFEE-427A-8FC6-A718BDD066BF}.Debug|x86.ActiveCfg = Debug|x86
+		{93BA2A4A-CFEE-427A-8FC6-A718BDD066BF}.Debug|x86.Build.0 = Debug|x86
+		{93BA2A4A-CFEE-427A-8FC6-A718BDD066BF}.Release|x86.ActiveCfg = Release|x86
+		{93BA2A4A-CFEE-427A-8FC6-A718BDD066BF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
